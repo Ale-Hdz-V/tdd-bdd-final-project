@@ -39,7 +39,6 @@ Scenario: Create a Product
     And I should see "Tools" in the "Category" dropdown
     And I should see "34.95" in the "Price" field
 
-
 Scenario: Read a Product
     When I visit the "Home Page"
     And I set the "Name" to "Hat"
@@ -132,3 +131,4 @@ Scenario: Search by name
     Then I should see the message "Success"
     And I should see "Hat" in the "Name" field
     And I should see "A red fedora" in the "Description" field
+
